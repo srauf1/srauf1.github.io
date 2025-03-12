@@ -1,0 +1,93 @@
+/* style.css */
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #333;
+    margin: 10px 0;
+}
+
+/* index.html */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travels</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Travels</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="africa.html">Africa</a>
+        <a href="europe.html">Europe</a>
+        <a href="asia.html">Asia</a>
+        <a href="northamerica.html">North America</a>
+    </nav>
+    <h2>Welcome to My Travel Website</h2>
+    <p>Here, you can explore the different places I have traveled to around the world.</p>
+    <img src="travel.jpg" alt="A scenic travel destination">
+</body>
+</html>
+
+/* africa.html, europe.html, asia.html, northamerica.html */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Africa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Travels - Africa</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="africa.html">Africa</a>
+        <a href="europe.html">Europe</a>
+        <a href="asia.html">Asia</a>
+        <a href="northamerica.html">North America</a>
+    </nav>
+    <h2>Places I Visited in Africa</h2>
+    <ul>
+        <li>Egypt - Pyramids of Giza</li>
+        <li>South Africa - Cape Town</li>
+        <li>Morocco - Marrakech</li>
+    </ul>
+    <img src="africa.jpg" alt="African landscape">
+</body>
+</html>
