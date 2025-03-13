@@ -1,36 +1,66 @@
+/* General Styles */
 body {
     font-family: "Times New Roman", serif;
-    background-color: #f4f4f4;
-    margin: 20px;
-    padding: 20px;
+    background-color: #C2A484;  /* Light beige */
+    color: #33271B;  /* Deep brown */
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
+/* Header with "Sameer's Travels" */
 header {
-    background-color: #333;
+    background-color: #5C4F42;  /* Dark brown */
     color: white;
-    padding: 10px;
-    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
+/* Navigation Bar */
 nav {
-    background-color: #444;
+    background-color: #8F877E;  /* Grayish brown */
     padding: 10px;
-    text-align: center;
 }
 
 nav a {
     color: white;
-    margin: 10px;
     text-decoration: none;
+    font-size: 18px;
+    margin: 15px;
 }
 
+nav a:hover {
+    color: #F5B776;  /* Warm tan */
+}
+
+/* Main Content Styling */
 h1, h2 {
-    color: #333;
+    color: #5C4F42;  /* Dark brown */
 }
 
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Image Styling */
 img {
-    width: 300px;
-    height: auto;
-    border: 2px solid #333;
-    margin: 10px 0;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Box for "Sameer's Travels" */
+.title-box {
+    background-color: #F5B776; /* Warm tan */
+    padding: 15px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #33271B; /* Deep brown */
 }
